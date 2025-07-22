@@ -53,10 +53,4 @@ def main(rawArgs=None):
     plt.show()
 
 if __name__=="__main__":
-    main(['--csv_file',"voluflow_log_20250720_195546_660427.csv", '--cols', 'vflow'])#,'--cols','mean_bed','mean_bed_left','mean_bed_right'])
-    
-    # f = r"C:\Cogency Dropbox\Project - DBM\DBM - Voluflow\phase7 - 2025 testfacility\results_20250617\results\20250617-141028-VoluflowMetric.csv"
-    # f = r"C:\Cogency Dropbox\Project - DBM\DBM - Voluflow\phase7 - 2025 testfacility\results_20250617\results\20250617-143107-VoluflowMetric.csv"
-    
-    # main(['--csv_file', f, '--time_column', 'recorderTime', '--time_format', 'unix_float', '--resample', '10', '--cols', 'fields-mean_bed'])
-    # main(['--csv_file', f, '--time_column', 'recorderTime', '--time_format', 'unix_float', '--resample', '1', '--cols', 'fields-vflow'])
+    main()
